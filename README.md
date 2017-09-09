@@ -38,6 +38,12 @@ There are a lot of tutorials on the internet that list step-by-step instructions
 * Added logic to blink the LED light bar
 * Used tank tracks so that it can drive over smaller obstacles that are not detected by the Range detector
 
+### External Libraries
+The following libraries will need to be downloaded and placed in the libraries directory of the Arduino project
+* [Adafruit Motor shield V1 firmware](https://github.com/adafruit/Adafruit-Motor-Shield-library)
+* [drv8835 Motor Shield](https://github.com/pololu/drv8835-motor-shield/blob/master/DRV8835MotorShield.h)
+* [NewPing Library - v1.8](http://playground.arduino.cc/Code/NewPing)
+
 ### Issues & Resolutions
 * Use 6 AA batteries to power robot.  A lot of tutorials I read only used a 9V battery, but this did not provide enough voltage.  I also tried 4 AA batteries, but those still did not provide enough voltage.  After reading the spec sheets for the motors and motor shield, I determined I needed to use 6 AA batteries.  This provided enough voltage to power to drive all the motors and blink the lights.  
 
