@@ -4,7 +4,7 @@
 namespace myrobot
 {
   /*
-   * Create a MotorDriver ojbect to control the Adafruit Motor Shield (or smilar)
+   * Create a MotorDriver ojbect to control the Pololu DRV8835 Motor Shield
    * 
    */
   class Motor : public MotorDriver
