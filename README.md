@@ -47,6 +47,11 @@ There are a lot of tutorials on the internet that list step-by-step instructions
 
 * Use Track & Wheel set instead of wheels.  The first robot I built used 4 wheels.  However, it would get stuck when an obstacle was encountered that was too low for the HC-SR04 to detect.  With the tank tracks, the robot can go over those smaller objects.   
 
+## Finished Project
+![Side View](screenshots/image1.jpg "Side view")
+
+![Under View](screenshots/image3.jpg "Under View")
+
 
 ## Acknowledgments
 The links provided good instructions on how to develop the state machine and use millis() instead of delay().
